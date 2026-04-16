@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background-color: #f5f5f5;
+  padding: 20px;
+}
+
+.cards.block ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.cards.block li {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 150px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.cards.block h3 {
+  margin: 0 0 10px;
+}
+.cards.block.wide li {
+  width: 250px;
+}
