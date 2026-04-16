@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="cards.css">
+   
   <title>EDS Practice</title>
 
   
@@ -9,9 +9,16 @@
 
 <body>
 
+    <div class="header" data-block-name="header"></div>
+
   <h1>My First EDS Block</h1>
 
-  <div class="cards">
+  <div class="hero" data-block-name="hero">
+  <h1>Welcome to My EDS Site</h1>
+  <p>This is my first multi-block project</p>
+</div>
+
+  <div class="cards" data-block-name="cards">
   <ul>
     <li>
       <img src="https://picsum.photos/150">
@@ -27,6 +34,9 @@
   </ul>
 </div>
 
-  <script src="cards.js"></script>
+<div class="footer" data-block-name="footer"></div>
+
+ <script src="scripts.js"></script>
+ <script type="module" src="scripts.js"></script>
 </body>
 </html>

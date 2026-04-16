@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #222;
+  color: white;
+  border-radius: 8px;
+}
+
+.nav ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
